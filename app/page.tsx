@@ -1,7 +1,7 @@
 import Hero from "@/components/hero";
 import Projects from "@/components/Projects"
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import { TextGenerateEffect } from 'components/ui/text-generate-effect'
+import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import {FaHome} from "react-icons/fa"
 import { GrProjects } from "react-icons/gr";
 import { IoIosContact } from "react-icons/io";
