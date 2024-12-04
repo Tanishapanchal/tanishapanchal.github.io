@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Projects from "@/components/Projects"
 import {FaLocationArrow} from "react-icons/fa";
 import { BackgroundLines } from './ui/background-lines';
-import Typical from 'react-typical';
+
 
 const navItems = [
   {
@@ -60,7 +60,7 @@ const Hero = () => {
           </h2>
         </div>
         </div>
-
+{/* 
         <div className="text-center ">
     <h1 className=" text-7xl font-bold leading-tight text-purple">
       <Typical
@@ -68,11 +68,11 @@ const Hero = () => {
         loop={Infinity}
         wrapper="span"
       />
-      </h1>
-    {/* </h1>
+      </h1> */}
+     
         <div className = "text-white text-center top-5">
-        <h1 className=' text-7xl font-bold leading-tight text-purple'>Tanisha Panchal
-        </h1> */}
+        <h1 className=' text-7xl font-bold leading-tight text-purple'>Software Developer
+        </h1>
         <br></br>
 
       
