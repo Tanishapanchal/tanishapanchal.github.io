@@ -6,7 +6,6 @@ import MagicButton from './ui/MagicButton'
 import Link from 'next/link';
 import Projects from "@/components/Projects"
 import {FaLocationArrow} from "react-icons/fa";
-import { BackgroundLines } from './ui/background-lines';
 
 
 const navItems = [
