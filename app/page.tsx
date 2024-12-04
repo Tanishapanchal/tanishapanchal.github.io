@@ -6,6 +6,7 @@ import {FaHome} from "react-icons/fa"
 import { GrProjects } from "react-icons/gr";
 import { IoIosContact } from "react-icons/io";
 import Grid from "@/components/Grid"
+import Experience from "@/components/Experience"
 
 export default function Home() {
   return (
@@ -14,14 +15,11 @@ export default function Home() {
       <div className = "text-white text-center ">
       
     </div>
-        <FloatingNav navItems={[
-          {name: "Home", link: '/', icon: <FaHome/> },
-          {name: "Projects", link: "/Projects", icon: <GrProjects/> },
-          {name: "Contact", link: "#", icon: <IoIosContact/> }
-        ]}/>
         <Hero /> 
+        <Projects />
+        <Experience />
         <Grid />
-        {/* <Projects /> */}
+        
       </div>
     </main>
   );
