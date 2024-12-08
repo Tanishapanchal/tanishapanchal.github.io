@@ -82,3 +82,141 @@ export const projects = [
       learnings: "Refined presentation skills and learned how to communicate complex ideas to a non-technical audience."
     }
   ];
+
+export const workExps = [
+  {
+    id: 1,
+    name: 'Vanguard',
+    pos: 'Software Developer Intern',
+    start: 'May 2024',
+    end: 'Aug 2024',
+    des: 'Malvern, PA',
+    pic: '/exp1.svg'
+  },
+  {
+    id: 2,
+    name: 'Comerica Bank',
+    pos: 'Software Engineer Intern',
+    start: 'May 2023',
+    end: 'Aug 2023',
+    des: 'Auburn Hills, MI',
+    pic: '/exp4.svg'
+  },
+  {
+    id: 3,
+    name: 'LSA Technology Services BlueCorps Technology Consulting',
+    pos: 'Computer Consultant',
+    start: 'Sept 2023',
+    end: 'Present',
+    des: 'Ann Arbor, MI',
+    pic: '/exp2.svg'
+  },
+  {
+    id: 4,
+    name: 'Reach Consulting Group',
+    pos: 'Vice President of Consulting',
+    start: 'Jan 2023',
+    end: 'Present',
+    des: 'Ann Arbor, MI',
+    pic: '/exp2.svg'
+  }
+]
+
+export const prog_lang = [
+    {
+      "name": "C/C++"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "C#"
+    },
+    {
+      "name": "GoLang"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Node.js"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "MATLAB"
+    },
+    {
+      "name": "Julia"
+    },
+    {
+      "name": "R"
+    }
+  
+]
+
+export const frameworks = [
+    {
+      "name": "Jinja2"
+    },
+    {
+      "name": "Flask"
+    },
+    {
+      "name": "Boto3"
+    },
+    {
+      "name": "NumPy"
+    },
+    {
+      "name": "OpenCV"
+    },
+    {
+      "name": "Pandas"
+    },
+    {
+      "name": "SQLite Database"
+    }
+  
+]
+
+export const Technologies = [
+    {
+      "name": "SQLite"
+    },
+    {
+      "name": "AWS S3"
+    },
+    {
+      "name": "DynamoDB"
+    },
+    {
+      "name": "Lambda"
+    },
+    {
+      "name": "GitHub"
+    },
+    {
+      "name": "Visual Studio Code"
+    },
+    {
+      "name": "Unity Hub"
+    },
+    {
+      "name": "Bitbucket"
+    },
+    {
+      "name": "JIRA"
+    },
+    {
+      "name": "Figma"
+    },
+    {
+      "name": "Tableau"
+    }
+]
+

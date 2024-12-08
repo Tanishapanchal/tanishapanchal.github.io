@@ -55,7 +55,7 @@ const Hero = () => {
         <div className="flex relative justify-center items-center left-0 right-0 top-[30%] mt-20">
         <div className="max-w-[100vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center">
           <h2 className="uppercase tracking-widest text-center text-blue-100 max-w-80 text-sm">
-           Tanisha Panchal Website
+           Welcome to my portfolio!
           </h2>
         </div>
         </div>
@@ -70,14 +70,14 @@ const Hero = () => {
       </h1> */}
      
         <div className = "text-white text-center top-5">
-        <h1 className=' text-7xl font-bold leading-tight text-purple'>Software Developer
+        <h1 className=' text-7xl font-bold leading-tight text-purple'>Tanisha Panchal
         </h1>
         <br></br>
 
       
     
     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
-      a Computer Science major at the University of Michigan. Welcome to my portfolio!
+      Junior Computer Science student at the University of Michigan
     </p>
 
   

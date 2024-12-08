@@ -7,6 +7,7 @@ import { GrProjects } from "react-icons/gr";
 import { IoIosContact } from "react-icons/io";
 import Grid from "@/components/Grid"
 import Experience from "@/components/Experience"
+import TechStack from "@/components/TechStack";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
         <Hero /> 
         <Projects />
         <Experience />
-        <Grid />
+        <TechStack />
         
       </div>
     </main>
