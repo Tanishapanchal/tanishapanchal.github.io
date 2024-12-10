@@ -8,6 +8,8 @@ import { IoIosContact } from "react-icons/io";
 import Grid from "@/components/Grid"
 import Experience from "@/components/Experience"
 import TechStack from "@/components/TechStack";
+import Contact from "@/components/Contact";
+import AboutMe from "@/components/AboutMe";
 
 export default function Home() {
   return (
@@ -17,10 +19,11 @@ export default function Home() {
       
     </div>
         <Hero /> 
+        <AboutMe />
         <Projects />
         <Experience />
         <TechStack />
-        
+        <Contact />
       </div>
     </main>
   );
