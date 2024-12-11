@@ -14,8 +14,8 @@ import Particles from "react-tsparticles"
 
 const Hero = () => {
   return (
+    <section id = 'home'>
     <div>
-     
       {/* Spotlight Effects */}
       <div className="pb-20 pt-36 relative">
         <div className="absolute inset-0">
@@ -41,11 +41,11 @@ const Hero = () => {
             TanishaPanchal<span className="text-white"> ._ </span>
           </h1>
           <div className="flex-grow flex justify-center space-x-8 text-gray-300 text-sm uppercase -translate-x-12">
-            <a className="hover:text-purple-500 hover:underline transition duration-300">// home</a>
-            <a className="hover:text-purple-500 hover:underline transition duration-300">// about</a>
-            <a className="hover:text-purple-500 hover:underline transition duration-300">// projects</a>
-            <a className="hover:text-purple-500 hover:underline transition duration-300">// experience</a>
-            <a className="hover:text-purple-500 hover:underline transition duration-300">// contact</a>
+            <a href = '#home' className="hover:text-purple-500 hover:underline transition duration-300">// home</a>
+            <a href = '#about' className="hover:text-purple-500 hover:underline transition duration-300">// about</a>
+            <a href = '#projects' className="hover:text-purple-500 hover:underline transition duration-300">// projects</a>
+            <a href = '#experience' className="hover:text-purple-500 hover:underline transition duration-300">// experience</a>
+            <a href = '#contact' className="hover:text-purple-500 hover:underline transition duration-300">// contact</a>
           </div>
         </nav>
 
@@ -56,7 +56,11 @@ const Hero = () => {
               Welcome to my portfolio!
             </h2>
             
-            <h1 className="text-7xl font-bold leading-tight text-purple text-center mt-4">  Tanisha Panchal </h1>
+            {/* <h1 className="text-7xl font-bold leading-tight text-purple text-center mt-4">  Tanisha Panchal </h1> */}
+            <TextGenerateEffect
+            words="Tanisha Panchal"
+            className=""
+          />
 
             <p className="text-center text-white md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
               Junior Computer Science student at the University of Michigan
@@ -70,9 +74,11 @@ const Hero = () => {
               <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
 
               <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              <Link href="/Projects">
-                <MagicButton title="Projects" icon={<FaLocationArrow />} />
+              
+              <Link href='#projects'>
+                  <MagicButton title="Projects" icon={<FaLocationArrow />} />
               </Link>
+              
             </div>
             </div>
 
@@ -85,7 +91,7 @@ const Hero = () => {
           <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
         </div>
       </div>
-    
+      </section>
   )
 }
 

@@ -2,14 +2,16 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
+    <section id='about'>
+     
     <div>
       {/* Title Section */}
       <div className="text-white text-center mt-60">
-        <span className="heading text-purple">About </span>
+        <span className="heading text-purple mb-2">About </span>
       </div>
 
       {/* About Me Section */}
-      <section className="about-me bg-[#13162d] text-white py-20 px-8">
+      <section className="about-me bg-[#13162d] text-white py-20 px-8 mt-3">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Image Section */}
           <div className="relative">
@@ -39,6 +41,7 @@ const AboutMe = () => {
         </div>
       </section>
     </div>
+    </section>
   );
 };
 

@@ -4,7 +4,7 @@ import {Button} from './ui/moving-border'
 
 const Experience = () => {
     return (
-        
+      <section id = 'experience'>
         <div className = "text-white text-center mt-20 mb-30">
             <h1 className='heading text-white'> My
                 <span className='heading text-purple'> work experience </span>
@@ -56,6 +56,7 @@ const Experience = () => {
         ))}
       </div>
     </div>
+    </section>
     )
 }
 export default Experience

@@ -10,6 +10,7 @@ import { FloatingNav } from './ui/floating-navbar';
 
 const Projects = () => {
   return (
+    <section id='projects'>
 <div className="py-10">
       <h1 className="heading">
         A small selection of{" "}
@@ -70,6 +71,7 @@ const Projects = () => {
         ))}
       </div>
     </div>
+    </section>
   )
 }
 
