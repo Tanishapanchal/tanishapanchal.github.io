@@ -1,3 +1,7 @@
+import { IoDocument } from "react-icons/io5";
+import { FaReact, FaPython, FaUnity } from "react-icons/fa";
+import { SiTailwindcss, SiFirebase } from "react-icons/si";
+
 interface projects {
     id: number;
     title: string;
@@ -27,60 +31,66 @@ export const gridItems = [
 ]
 
 export const projects = [
+  {
+    id: 1,
+    title: "CLAWS: Collaborative Lab for Advancing Work in Space",
+    des: "Designed & developed an augmented reality interface using Unity & C# to enable astronauts to store, map, and visualize Geosample data in real time. The design proposal ranked in the top 10 nationwide in the NASA Suits Challenge, advancing to the final product pitch round presented to a panel of NASA astronauts and engineers.",
+    img: '/claws.jpg',
+    link: "https://claws.engin.umich.edu",
+    techStack: ["Unity", "C#", "ARCore"],
+    icons: [IoDocument, FaUnity],
+    learnings: "Developed expertise in AR interface design and integration with real-world data. Enhanced skills in collaborative problem-solving and pitching technical solutions."
+  },
+  {
+    id: 2,
+    title: "Real-Time Queue Fullness Estimation at Ricks American Cafe",
+    des: "Developed a real-time queue estimation system using Raspberry Pi and OpenCV to provide live updates on line fullness at ricksline.bar. Implemented a lightweight, pixel-based image processing approach that outperformed complex models like YOLO in efficiency and accuracy under varying lighting and low-resolution conditions.",
+    img: "/ricks.png",
+    link: "https://drive.google.com/file/d/1Atz5orr_MqlsOeI9v59gznh_nPHCB1Mr/view?usp=sharing",
+    techStack: ["Raspberry Pi", "OpenCV", "Python", "Image Processing"],
+    icons: [IoDocument, FaPython],
+    learnings: "Gained expertise in image processing and real-time data analysis on embedded systems. Enhanced skills in developing efficient algorithms for computer vision applications and integrating hardware with software solutions."
+  },
     {
-      id: 1,
+      id: 3,
       title: "Ohana: Student Subleasing Website",
       des: "Performed web design & feature analysis, user interview testing, and developed a leasing market outreach strategy for client’s beta version, which secured a $125K investment at $10M valuation from Neo VC accelerator program.",
       img: '/ohana.jpeg',
       link: "https://liveohana.ai",
       techStack: ["React", "TailwindCSS", "Firebase"],
+      icons: [], 
       learnings: "Gained experience in web design, user research, and how to align technical solutions with business goals to attract investors."
     },
     {
-      id: 2,
-      title: "CLAWS: Collaborative Lab for Advancing Work in Space",
-      des: "Designed & developed an augmented reality interface using Unity & C# to enable astronauts to store, map, and visualize Geosample data in real time. The design proposal ranked in the top 10 nationwide in the NASA Suits Challenge, advancing to the final product pitch round presented to a panel of NASA astronauts and engineers.",
-      img: '/claws.jpg',
-      link: "https://claws.engin.umich.edu",
-      techStack: ["Unity", "C#", "ARCore"],
-      learnings: "Developed expertise in AR interface design and integration with real-world data. Enhanced skills in collaborative problem-solving and pitching technical solutions."
-    },
-    {
-      id: 3,
-      title: "Budgy - Mhacks Hackathon",
-      des: "Trained a binary model to classify purchases into spending categories for providing monthly budgets and spending recommendations. Developed a Chrome extension that deploys a Streamlit webpage when an online purchase is detected.",
-      img: '/mhacks.png',
-      link: 'https://www.mhacks.org',
-      techStack: ["Python", "Streamlit", "Chrome Extensions", "Scikit-learn"],
-      learnings: "Strengthened my ability to quickly prototype and deploy solutions during hackathons. Learned how to implement models in real-time through browser extensions."
-    },
-    {
       id: 4,
-      title: "Consensus-Based Robot Formation",
-      des: "Simulated consensus dynamics for multi-robot systems to form circular formations while avoiding obstacles and scaling dynamically based on environmental constraints.",
-      img: '/complete_graph.png', // Replace with the actual image URL
-      link: '#', // Replace with a valid link if available
+      title: "Multi-robot Software Framework for Search & Rescue Missions",
+      des: "Developed a sophisticated multi-robot software framework for search-and-rescue missions, integrating advanced pathfinding algorithms (A* and Dijkstra’s) to ensure efficient navigation and obstacle avoidance. Implemented dynamic task allocation using probabilistic and optimization-based strategies, enabling real-time task reassignment based on robot capabilities, positions, and battery levels. Engineered cohesive formation control through geometric models and group-based coordination, facilitating seamless collaboration and adaptive formation adjustments. Validated the system's scalability and adaptability through comprehensive simulations and real-time visualization tools, demonstrating effective autonomous operations in dynamic environments.",      
+      img: '/rob_final.png', // Replace with the actual image URL
+      link: 'https://drive.google.com/file/d/1qQCFZAeHvTNC086tpSfzxo1lWW97dFXC/view?usp=sharing', // Replace with a valid link if available
       techStack: ["Python", "Matplotlib", "NumPy"],
-      learnings: "Gained deeper insights into distributed algorithms and their real-world applications in robotics."
+      icons: [IoDocument], 
+      learnings: "Learned advanced pathfinding algorithm while optimizing multi-robot navigation and obstacle avoidance, explored dynamic task allocation techniques and gained proficiency in real-time simulation and visualization"
     },
     {
       id: 5,
+      title: "Budgy - Mhacks Hackathon",
+      des: "Trained a binary model to classify purchases into spending categories for providing monthly budgets and spending recommendations. Developed a Chrome extension that deploys a Streamlit webpage when an online purchase is detected.",
+      img: '/mhacks.png',
+      link: '#',
+      techStack: ["Python", "Streamlit", "Chrome Extensions", "Scikit-learn"],
+      icons: [], 
+      learnings: "Strengthened my ability to quickly prototype and deploy solutions during hackathons. Learned how to implement models in real-time through browser extensions."
+    },
+    {
+      id: 6,
       title: "Image-to-Image Translation with Pix2Pix",
       des: "Implemented an image-to-image translation program based on the Pix2Pix model, training it on the edges2shoes dataset to generate realistic shoe images from sketches.",
       img: '/eecs442.png', // Replace with the actual image URL
       link: '#', // Replace with a valid link if available
       techStack: ["PyTorch", "GANs", "Python"],
+      icons: [], 
       learnings: "Enhanced my understanding of generative adversarial networks and their practical application in computer vision."
     },
-    {
-      id: 6,
-      title: "NASA Tech Trek Presentation",
-      des: "Presented autonomous snow-plowing vehicle designs and AI assistant innovations at the annual Ann Arbor Tech Trek, inspiring others to explore technology-driven solutions.",
-      img: '/tech-trek.jpg', // Replace with the actual image URL
-      link: '#', // Replace with a valid link if available
-      techStack: ["Public Speaking", "Prototyping", "AI Concepts"],
-      learnings: "Refined presentation skills and learned how to communicate complex ideas to a non-technical audience."
-    }
   ];
 
 export const workExps = [

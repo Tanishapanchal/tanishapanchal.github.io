@@ -36,18 +36,18 @@ const Hero = () => {
         </div>
 
         {/* Navigation Bar */}
-        <nav className="fixed top-0 left-0 w-full flex items-center px-8 py-4">
+        <div className="fixed top-0 left-0 w-full flex items-center px-8 py-4">
           <h1 className="text-purple text-2xl font-bold">
             TanishaPanchal<span className="text-white"> ._ </span>
           </h1>
-          <div className="flex-grow flex justify-center space-x-8 text-gray-300 text-sm uppercase -translate-x-12">
+          <div className="fixed top-0 left-0 w-full flex justify-center space-x-8 text-gray-300 text-sm uppercase z-50 p-4">
             <a href = '#home' className="hover:text-purple-500 hover:underline transition duration-300">// home</a>
             <a href = '#about' className="hover:text-purple-500 hover:underline transition duration-300">// about</a>
             <a href = '#projects' className="hover:text-purple-500 hover:underline transition duration-300">// projects</a>
             <a href = '#experience' className="hover:text-purple-500 hover:underline transition duration-300">// experience</a>
             <a href = '#contact' className="hover:text-purple-500 hover:underline transition duration-300">// contact</a>
           </div>
-        </nav>
+        </div>
 
         {/* Hero Section */}
         <div className="flex relative justify-center items-center mt-20">
@@ -88,7 +88,7 @@ const Hero = () => {
 
         
           {/* Radial Gradient to prevent sharp edges */}
-          <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+          <div className="absolute inset-0 w-full h-full [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)] pointer-events-none"></div>
         </div>
       </div>
       </section>
